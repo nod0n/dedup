@@ -1,11 +1,12 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 rmlint \
     --progress \
+    --types="duplicates" \
     --keep-all-tagged \
     --must-match-tagged \
     --merge-directories \
-    '/Volumes/Bruchtal/Photos' \
-    '/Volumes/Bruchtal/old_bruchtal/Photos' \
+    '/volume1/Bruchtal/Photos' \
+    '/volume1/Bruchtal/old_bruchtal/Photos' \
     // \
-    '/Volumes/photo/fernando_alt'
+    '/volume1/photo'
